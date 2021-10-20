@@ -244,8 +244,8 @@ label later:
 
     "But I'm an indecisive person."
 
-    "I couldn't ask her that day and I end up never being able to ask her."
-
+    "I couldn't ask her that day and I end up never being able to ask her." 
+    
     "I guess I'll never know the answer to my question now..."
 
     "{b}Bad Ending{/b}."
