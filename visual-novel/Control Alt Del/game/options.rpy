@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Control Alt Del")
+define config.name = _("The Question")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,32 +23,40 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = _("Ren'Py 7 Edition")
 
 
-## Text that is placed on the game's about screen. Place the text between the
-## triple-quotes, and leave a blank line between paragraphs.
+## Text that is placed on the game's about screen. To insert a blank line
+## between paragraphs, write \n\n.
 
-define gui.about = _p("""
-""")
+define gui.about = _("""Character Art: Deji.
+Original Character Art: derik.
+
+Background Art: Mugenjohncel.
+Original Background Art: DaFool
+
+Music By: Alessio
+
+Written By: mikey""")
 
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "ControlAltDel"
+define build.name = "the_question"
 
+## Change the version used by the build system.
+define build.version = "7.0"
 
 ## Sounds and music ############################################################
 
-## These three variables control, among other things, which mixers are shown
-## to the player by default. Setting one of these to False will hide the
-## appropriate mixer.
+## These three variables control which mixers are shown to the player by
+## default. Setting one of these to False will hide the appropriate mixer.
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -75,11 +83,6 @@ define config.has_voice = True
 
 define config.enter_transition = dissolve
 define config.exit_transition = dissolve
-
-
-## Between screens of the game menu.
-
-define config.intra_transition = dissolve
 
 
 ## A transition that is used after a game has been loaded.
@@ -143,7 +146,7 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "ControlAltDel-1634713409"
+define config.save_directory = "the_question-7"
 
 
 ## Icon ########################################################################
@@ -195,7 +198,6 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
-
 ## A Google Play license key is required to download expansion files and perform
 ## in-app purchases. It can be found on the "Services & APIs" page of the Google
 ## Play developer console.
@@ -206,4 +208,4 @@ init python:
 ## The username and project name associated with an itch.io project, separated
 ## by a slash.
 
-# define build.itch_project = "renpytom/test-project"
+define build.itch_project = "renpytom/the-question"
