@@ -1,9 +1,9 @@
-Wed Oct 20 12:33:38 2021
+Wed Oct 20 12:35:20 2021
 Linux-5.10.0-kali9-amd64-x86_64-with-debian-kali-rolling
 Ren'Py 7.4.9.2142
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
 Loader init took 0.00s
 Loading error handling took 0.02s
@@ -11,11 +11,11 @@ Loading script took 0.08s
 Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
+Running init code took 0.04s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
@@ -23,10 +23,32 @@ DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.05s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.08s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.47s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)'
+Version: '3.0 Mesa 20.3.4'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
