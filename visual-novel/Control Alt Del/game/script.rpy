@@ -1,6 +1,6 @@
 # Declare characters used by this game.
 define s = Character(_("Sylvie"), color="#c8ffc8")
-define m = Character(_("Me"), color="#c8c8ff")
+define me = Character(_("Me"), color="#c8c8ff")
 
 # This is a variable that is True if you've compared a VN to a book, and False
 # otherwise.
@@ -57,11 +57,11 @@ label rightaway:
 
     s "Hi there! How was class?"
 
-    m "Good..."
+    me "Good..."
 
     "I can't bring myself to admit that it all went in one ear and out the other."
 
-    m "Are you going home now? Wanna walk back with me?"
+    me "Are you going home now? Wanna walk back with me?"
 
     s "Sure!"
 
@@ -74,7 +74,7 @@ label rightaway:
 
     "When we were children, we played in these meadows a lot, so they're full of memories."
 
-    m "Hey... Umm..."
+    me "Hey... Umm..."
 
     show sylvie green smile
     with dissolve
@@ -83,9 +83,9 @@ label rightaway:
 
     "I'll ask her...!"
 
-    m "Ummm... Will you..."
+    me "Ummm... Will you..."
 
-    m "Will you be my artist for a visual novel?"
+    me "Will you be my artist for a visual novel?"
 
     show sylvie green surprised
 
@@ -108,25 +108,25 @@ label rightaway:
 
 label game:
 
-    m "It's a kind of videogame you can play on your computer or a console."
+    me "It's a kind of videogame you can play on your computer or a console."
 
-    m "Visual novels tell a story with pictures and music."
+    me "Visual novels tell a story with pictures and music."
 
-    m "Sometimes, you also get to make choices that affect the outcome of the story."
+    me "Sometimes, you also get to make choices that affect the outcome of the story."
 
     s "So it's like those choose-your-adventure books?"
 
-    m "Exactly! I've got lots of different ideas that I think would work."
+    me "Exactly! I've got lots of different ideas that I think would work."
 
-    m "And I thought maybe you could help me...since I know how you like to draw."
+    me "And I thought maybe you could help me...since I know how you like to draw."
 
-    m "It'd be hard for me to make a visual novel alone."
+    me "It'd be hard for me to make a visual novel alone."
 
     show sylvie green normal
 
     s "Well, sure! I can try. I just hope I don't disappoint you."
 
-    m "You know you could never disappoint me, Sylvie."
+    me "You know you could never disappoint me, Sylvie."
 
     jump marry
 
@@ -135,23 +135,23 @@ label book:
 
     $ book = True
 
-    m "It's like an interactive book that you can read on a computer or a console."
+    me "It's like an interactive book that you can read on a computer or a console."
 
     show sylvie green surprised
 
     s "Interactive?"
 
-    m "You can make choices that lead to different events and endings in the story."
+    me "You can make choices that lead to different events and endings in the story."
 
     s "So where does the \"visual\" part come in?"
 
-    m "Visual novels have pictures and even music, sound effects, and sometimes voice acting to go along with the text."
+    me "Visual novels have pictures and even music, sound effects, and sometimes voice acting to go along with the text."
 
     show sylvie green smile
 
     s "I see! That certainly sounds like fun. I actually used to make webcomics way back when, so I've got lots of story ideas."
 
-    m "That's great! So...would you be interested in working with me as an artist?"
+    me "That's great! So...would you be interested in working with me as an artist?"
 
     s "I'd love to!"
 
@@ -182,19 +182,19 @@ label marry:
 
     s "Hey..."
 
-    m "Yes?"
+    me "Yes?"
 
     show sylvie blue giggle
 
     s "Will you marry me?"
 
-    m "What? Where did this come from?"
+    me "What? Where did this come from?"
 
     show sylvie blue surprised
 
     s "Come on, how long have we been dating?"
 
-    m "A while..."
+    me "A while..."
 
     show sylvie blue smile
 
@@ -202,7 +202,7 @@ label marry:
 
     s "I've gotten to know you and care about you better than anyone else. And I think the same goes for you, right?"
 
-    m "Sylvie..."
+    me "Sylvie..."
 
     show sylvie blue giggle
 
@@ -212,11 +212,11 @@ label marry:
 
     s "So will you marry me?"
 
-    m "Of course I will! I've actually been meaning to propose, honest!"
+    me "Of course I will! I've actually been meaning to propose, honest!"
 
     s "I know, I know."
 
-    m "I guess... I was too worried about timing. I wanted to ask the right question at the right time."
+    me "I guess... I was too worried about timing. I wanted to ask the right question at the right time."
 
     show sylvie blue giggle
 
