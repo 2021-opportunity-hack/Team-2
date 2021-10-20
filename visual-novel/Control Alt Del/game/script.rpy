@@ -11,7 +11,7 @@ default book = False
 label start:
 
     # Start by playing some music.
-    play music "illurock.opus"
+    play music "audio/illurock.opus"
 
     scene bg lecturehall
     with fade
