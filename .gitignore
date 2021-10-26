@@ -48,7 +48,7 @@ tags
 *.tar
 *.tbz2
 *.tgz
-*.zip
+#*.zip
 
 # Compiled Object files
 *.slo
